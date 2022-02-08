@@ -18,14 +18,14 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
+<!--       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
+      {% endif %} -->
       {% if site.show_downloads %}
-        <a href="{{ site.github.code_url }}" class="btn">Code</a>
-        <a href="{{ site.github.paper_url }}" class="btn">Paper</a>
-        <a href="{{ site.github.trained_model_url }}" class="btn">Download Trained Model</a>
-        <a href="{{ site.github.object_meshes_url }}" class="btn">Download Object Meshes</a>
+        <a href="{{ https://github.com/ZXP-S-works/SE2-equivariant-grasp-learning }}" class="btn">Code</a>
+        <a href="{{ https://openreview.net/forum?id=a3NaSCJ20V }}" class="btn">Paper</a>
+        <a href="{{ https://drive.google.com/drive/u/0/folders/1LkS5cjqy69k-FOCAvlagxE1Z9Ff_LyZc }}" class="btn">Download Trained Model</a>
+        <a href="{{ https://drive.google.com/drive/u/0/folders/1LkS5cjqy69k-FOCAvlagxE1Z9Ff_LyZc }}" class="btn">Download Object Meshes</a>
       {% endif %}
     </header>
 
