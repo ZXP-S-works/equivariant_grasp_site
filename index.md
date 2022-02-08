@@ -2,9 +2,7 @@
 layout: default
 ---
 
-
-## Authors
----
+X, D, R, R
 
 ## Video
 ---
