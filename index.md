@@ -12,9 +12,9 @@ layout: default
 
 ## Highlights
 ---
-+Equ
-+ASR
-+Optimizations
++ Equ
++ ASR
++ Optimizations
 
 ## Baseline Comparisons
 ---
