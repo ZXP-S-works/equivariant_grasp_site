@@ -8,6 +8,9 @@ layout: default
 
 ## Video
 ---
+<div style="text-align:center">
+	<iframe width="853" height="480" src="https://drive.google.com/file/d/1oeem_HmvGHhyqT5TKYiScx1XfzvU0q80/view?usp=sharing" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ## Highlights
 ---
