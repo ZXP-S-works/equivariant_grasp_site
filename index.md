@@ -2,7 +2,6 @@
 layout: default
 ---
 
-**Abstract.** Visual grasp detection is a key problem in robotics where the agent must learn to model the grasp function, a mapping from an image of a scene onto a set of feasible grasp poses. In this paper, we recognize that the grasp function is SE(2)-equivariant and that it can be modeled using an equivariant convolutional neural network. As a result, we are able to significantly improve the sample efficiency of grasp learning to the point where we can learn a good approximation of the grasp function within only 500 grasp experiences. This is fast enough that we can learn to grasp completely on a physical robot in about an hour. 
 
 ## Authors
 ---
@@ -29,6 +28,7 @@ layout: default
 ---
 
 
+[View this site in GitHub](https://github.com/ZXP-S-works/equivariant_grasp_site/edit/master/index.md)
 
 
 
