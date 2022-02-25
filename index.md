@@ -15,22 +15,27 @@ layout: default
 ---
 We formulate the planar grasp problem as a contextual bandit problem and use Q learning to learn a policy.
 
-+ Equivariant neural networks (Equ)
-
-We recognize that the optimal planar grasp function is SE(2)-equivariant. We use equivariant neural network to approximate
- the SE(2)-equivariant grasp function.
-
 + Augmented state representation (ASR)
 
-The action space for planar grasp is in 3-dimension (translation along x, y axle and rotation along z axle). It is
+![](images/ASR.png){: .align-right width="200px"}
+
+The action space for planar grasp is in 3-dimension (translation along x, y axle, and rotation along z axle). It is
 difficult to evaluate the entire action space in one pass for a single neural network. We instead factorize the evaluation
  into translation part and rotational part by q1 and q2 networks.
 
++ Equivariant neural networks (Equ)
+
+![](images/equation7.png){: .align-right width="200px"}
+![](images/equation8.png){: .align-right width="200px"}
+
+We recognize that the optimal planar grasp function is SE(2)-equivariant. We use equivariant neural networks to approximate
+ the SE(2)-equivariant grasp function.
+
 + Optimizations for the contextual bandit problem
 
-First, we adapt the loss function in ASR so that the target for q1 network is more accurate. Second, we add an off-policy
+First, we adapt the loss function in ASR so that the target for the q1 network is more accurate. Second, we add an off-policy
 learning loss to minimize the gap between q1 and q2 networks. Moreover, we use Boltzmann exploration to explore the action
- space based on learned q value.
+ space based on the learned q value.
 
 ## Policy Inference
 ---
@@ -38,8 +43,14 @@ learning loss to minimize the gap between q1 and q2 networks. Moreover, we use B
 
 ## The Robot Training Platform
 ---
+
+![](images/training_set_15.jpg){: width="200px"}
+
 All training happens using the 15 objects shown in Figure. After training, we evaluate grasp performance on both the
 ''easy'' test objects and the ''hard'' test objects. Note that both test sets are novel with respect to the training set.
+
+
+![](images/UR5_setup.png){: width="200px"}
 
 At the beginning of training, the 15 training objects are dropped into one of the two trays
 by the human operator. Then, we train by attempting to grasp these objects and place them in the other bin. All grasp
@@ -61,6 +72,7 @@ in the middle of the receiving tray.
 
 ## Citation
 ---
+
 ```
 @misc{zhu2022sample,
       title={Sample Efficient Grasp Learning Using Equivariant Models}, 
