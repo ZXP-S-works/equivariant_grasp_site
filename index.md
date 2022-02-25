@@ -2,7 +2,8 @@
 layout: default
 ---
 
-X, D, R, R
+[Xupeng Zhu](), [Dian Wang](https://pointw.github.io), [Ondrej Biza](https://sites.google.com/view/obiza), [Guanang Su](),
+[Robin Walters](http://mathserver.neu.edu/robin/), [Robert Platt](http://www.ccs.neu.edu/home/rplatt/)
 
 ## Video
 ---
@@ -10,8 +11,11 @@ X, D, R, R
 	<iframe width="853" height="480" src="https://drive.google.com/file/d/1oeem_HmvGHhyqT5TKYiScx1XfzvU0q80/view?usp=sharing" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-## Highlights
+## Idea
 ---
+We formulate the planner grasp detection as a contextual bandit. The contextual bandit's reward function is $r(s, a)$,
+where $s$ is the context, $a$ is an action. We assume that the contextual bandit's reward is $\mathrm{SE}(2)$ invariant:
+$r(s, a) = r(gs, gs), g \in \mathrm{SE}(2)$.
 + Equ
 + ASR
 + Optimizations
