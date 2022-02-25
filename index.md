@@ -5,11 +5,19 @@ layout: default
 [Xupeng Zhu](), [Dian Wang](https://pointw.github.io), [Ondrej Biza](https://sites.google.com/view/obiza), [Guanang Su](),
 [Robin Walters](http://mathserver.neu.edu/robin/), [Robert Platt](http://www.ccs.neu.edu/home/rplatt/)
 
-## Video
+## Citation
 ---
-<div style="text-align:center">
-	<iframe width="853" height="480" src="https://drive.google.com/file/d/1oeem_HmvGHhyqT5TKYiScx1XfzvU0q80/view?usp=sharing" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+
+```
+@misc{zhu2022sample,
+      title={Sample Efficient Grasp Learning Using Equivariant Models}, 
+      author={Xupeng Zhu and Dian Wang and Ondrej Biza and Guanang Su and Robin Walters and Robert Platt},
+      year={2022},
+      eprint={2202.09468},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
 
 ## Idea
 ---
@@ -17,7 +25,7 @@ We formulate the planar grasp problem as a contextual bandit problem and use Q l
 
 + Augmented state representation (ASR)
 
-![](images/ASR.png){: .align-right width="200px"}
+![](images/ASR.png){: .align-right width="400px"}
 
 The action space for planar grasp is in 3-dimension (translation along x, y axle, and rotation along z axle). It is
 difficult to evaluate the entire action space in one pass for a single neural network. We instead factorize the evaluation
@@ -25,8 +33,8 @@ difficult to evaluate the entire action space in one pass for a single neural ne
 
 + Equivariant neural networks (Equ)
 
-![](images/equation7.png){: .align-right width="200px"}
-![](images/equation8.png){: .align-right width="200px"}
+![](images/equation7.png){: .align-right width="400px"}
+![](images/equation8.png){: .align-right width="400px"}
 
 We recognize that the optimal planar grasp function is SE(2)-equivariant. We use equivariant neural networks to approximate
  the SE(2)-equivariant grasp function.
@@ -44,13 +52,13 @@ learning loss to minimize the gap between q1 and q2 networks. Moreover, we use B
 ## The Robot Training Platform
 ---
 
-![](images/training_set_15.jpg){: width="200px"}
+![](images/training_set_15.jpg){: .align-right width="400px"}
 
 All training happens using the 15 objects shown in Figure. After training, we evaluate grasp performance on both the
 ''easy'' test objects and the ''hard'' test objects. Note that both test sets are novel with respect to the training set.
 
 
-![](images/UR5_setup.png){: width="200px"}
+![](images/UR5_setup.png){: .align-right width="400px"}
 
 At the beginning of training, the 15 training objects are dropped into one of the two trays
 by the human operator. Then, we train by attempting to grasp these objects and place them in the other bin. All grasp
@@ -70,19 +78,12 @@ in the middle of the receiving tray.
 ---
 
 
-## Citation
+## Video
 ---
+<div style="text-align:center">
+	<iframe width="853" height="480" src="https://drive.google.com/file/d/1oeem_HmvGHhyqT5TKYiScx1XfzvU0q80/view?usp=sharing" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
-```
-@misc{zhu2022sample,
-      title={Sample Efficient Grasp Learning Using Equivariant Models}, 
-      author={Xupeng Zhu and Dian Wang and Ondrej Biza and Guanang Su and Robin Walters and Robert Platt},
-      year={2022},
-      eprint={2202.09468},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-}
-```
 
 [View this site in GitHub](https://github.com/ZXP-S-works/equivariant_grasp_site/edit/master/index.md)
 
