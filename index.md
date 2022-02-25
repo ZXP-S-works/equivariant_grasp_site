@@ -25,16 +25,18 @@ We formulate the planar grasp problem as a contextual bandit problem and use Q l
 
 + Augmented state representation (ASR)
 
-![](images/ASR.png){: .align-right width="400px"}
+<img src="images/ASR.png" alt="ASR" width="400" style="float:right">
 
 The action space for planar grasp is in 3-dimension (translation along x, y axle, and rotation along z axle). It is
 difficult to evaluate the entire action space in one pass for a single neural network. We instead factorize the evaluation
  into translation part and rotational part by q1 and q2 networks.
 
+
+
 + Equivariant neural networks (Equ)
 
-![](images/equation7.png){: .align-right width="400px"}
-![](images/equation8.png){: .align-right width="400px"}
+<img src="images/equation7.png" alt="ASR" width="400">
+<img src="images/equation8.png" alt="ASR" width="400">
 
 We recognize that the optimal planar grasp function is SE(2)-equivariant. We use equivariant neural networks to approximate
  the SE(2)-equivariant grasp function.
@@ -52,13 +54,13 @@ learning loss to minimize the gap between q1 and q2 networks. Moreover, we use B
 ## The Robot Training Platform
 ---
 
-![](images/training_set_15.jpg){: .align-right width="400px"}
+<img src="images/training_set_15.jpg" alt="ASR" width="400" style="float:right">
 
 All training happens using the 15 objects shown in Figure. After training, we evaluate grasp performance on both the
 ''easy'' test objects and the ''hard'' test objects. Note that both test sets are novel with respect to the training set.
 
 
-![](images/UR5_setup.png){: .align-right width="400px"}
+<img src="images/UR5_setup.png" alt="ASR" height="400" style="float:right">
 
 At the beginning of training, the 15 training objects are dropped into one of the two trays
 by the human operator. Then, we train by attempting to grasp these objects and place them in the other bin. All grasp
