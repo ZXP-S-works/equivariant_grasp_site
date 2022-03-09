@@ -26,7 +26,7 @@ We formulate the planar grasp problem as a contextual bandit problem and use Q l
 + Augmented state representation (ASR)
 
 <p align="center">
-  <img src="images/ASR.png" alt="ASR" width="300">
+  <img src="images/ASR.png" alt="ASR" width="400">
 </p>
 
 The action space for planar grasp is in 3-dimension (translation along x, y axle, and rotation along z axle). It is
@@ -35,19 +35,10 @@ difficult to evaluate the entire action space in one pass for a single neural ne
 
 + Equivariant neural networks (Equ)
 
-<div>
-  <div class="column">
-    <img src="images/equation7.png" alt="q1 equivariance" style="width:30%">
-    <p class="caption">Translation and rotation equivariance</p>
-  </div>
-  <div class="column">
-    <img src="images/equation8.png" alt="q2 equivariance" style="width:30%">
-    <p class="caption">Rotation equivariance</p>
-  </div>
-</div>
-
-<img src="images/equation7.png" alt="ASR" width="300" style="text-align: left">
-<img src="images/equation8.png" alt="ASR" width="300" style="text-align: right">
+<p align="center">
+ <img src="images/equation7.png" alt="q1 equivariance" width="240" style="text-align: left">
+ <img src="images/equation8.png" alt="q2 equivariance" width="240" style="text-align: right">
+</p>
 
 We recognize that the optimal planar grasp function is SE(2)-equivariant. We use equivariant neural networks to approximate
  the SE(2)-equivariant grasp function.
@@ -64,6 +55,7 @@ learning loss to minimize the gap between q1 and q2 networks. Moreover, we use B
 
 <p align="center">
   <img src="images/ablation.png" alt="ablation" width="300">
+</p>
 
 In the ablation study (the right figure), each component of our method is ablated to show its importance. We train each 
 ablation baseline in pybullet simulation and evaluate the learned policy at the grasp 150, 300, etc.
@@ -77,19 +69,18 @@ ablation baseline in pybullet simulation and evaluate the learned policy at the 
 ## The Robot Training Platform
 ---
 
-<div>
-  <div class="column">
-    <img src="images/training_set_15.jpg" alt="training set" style="width:30%">
-    <p class="caption">Training object set</p>
-  </div>
-  <div class="column">
-    <img src="images/test_set_easy.jpg" alt="testing set" style="width:30%">
-    <p class="caption">Testing object set</p>
-  </div>
-</div>
+<p align="center">
+ <img src="images/training_set_15.jpg" alt="training set" width="240" style="text-align: left">
 
-All training happens using the 15 objects shown in the right figure. After training, we evaluate grasp performance on 
-the 15 test objects. Note that the test set is novel with respect to the training set.
+[//]: # ( <p class="caption">Training object set</p>)
+ <img src="images/test_set_easy.jpg" alt="testing set" width="235" style="text-align: right">
+
+[//]: # ( <p class="caption">Testing object set</p>)
+</p>
+
+
+All training happens using the 15 objects shown in the left figure. After training, we evaluate grasp performance on 
+the 15 test objects shown in the right figure. Note that the test set is novel with respect to the training set.
 
 <div style="clear: right;">
     <p style="float: right;"><img src="images/UR5_setup.png" alt="ASR" width="200"></p>
