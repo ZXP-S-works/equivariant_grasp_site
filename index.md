@@ -64,10 +64,6 @@ In the ablation study (the right figure), each component of our method is ablate
 ablation baseline in pybullet simulation and evaluate the learned policy at the grasp 150, 300, etc.
 
 
-[//]: # (## Policy Inference)
-
-[//]: # (---)
-
 
 ## The Robot Training Platform
 
@@ -79,8 +75,6 @@ ablation baseline in pybullet simulation and evaluate the learned policy at the 
 </p>
 
 
-[//]: # ( <p class="caption">Training object set</p>)
-[//]: # ( <p class="caption">Testing object set</p>)
 
 All training happens using the 15 objects shown in the left figure. After training, we evaluate grasp performance on 
 the 15 test objects shown in the right figure. Note that the test set is novel with respect to the training set.
@@ -109,16 +103,11 @@ In the simulation, after 1500 grasps training, our equivariant model converges t
 In the robot, after 600 grasps training, our equivariant model achieves a grasp success rate of 95%.
 
 
-[//]: # ()
-[//]: # ()
-[//]: # (## Failure Modes)
-
-[//]: # (---)
-
 
 ## Video
 
 ---
+
 <div style="text-align:center">
    <iframe width="853" height="480" src="https://youtu.be/au59crsgiKw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
