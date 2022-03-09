@@ -6,6 +6,7 @@ layout: default
 [Robin Walters](http://mathserver.neu.edu/robin/), [Robert Platt](http://www.ccs.neu.edu/home/rplatt/)
 
 ## Citation
+
 ---
 
 ```
@@ -20,6 +21,7 @@ layout: default
 ```
 
 ## Idea
+
 ---
 We formulate the planar grasp problem as a contextual bandit problem and use Q learning to learn a policy.
 
@@ -51,10 +53,11 @@ learning loss to minimize the gap between q1 and q2 networks. Moreover, we use B
 
 
 ## Alation study
+
 ---
 
 <p align="center">
-  <img src="images/ablation.png" alt="ablation" width="300">
+  <img src="images/ablation.png" alt="ablation" width="400">
 </p>
 
 In the ablation study (the right figure), each component of our method is ablated to show its importance. We train each 
@@ -67,17 +70,17 @@ ablation baseline in pybullet simulation and evaluate the learned policy at the 
 
 
 ## The Robot Training Platform
+
 ---
 
 <p align="center">
  <img src="images/training_set_15.jpg" alt="training set" width="240" style="text-align: left">
-
-[//]: # ( <p class="caption">Training object set</p>)
  <img src="images/test_set_easy.jpg" alt="testing set" width="235" style="text-align: right">
-
-[//]: # ( <p class="caption">Testing object set</p>)
 </p>
 
+
+[//]: # ( <p class="caption">Training object set</p>)
+[//]: # ( <p class="caption">Testing object set</p>)
 
 All training happens using the 15 objects shown in the left figure. After training, we evaluate grasp performance on 
 the 15 test objects shown in the right figure. Note that the test set is novel with respect to the training set.
@@ -99,11 +102,12 @@ in the middle of the receiving tray.</p>
 
 ## The Learned Policy
 
+---
+
 In the simulation, after 1500 grasps training, our equivariant model converges to the grasp success rate of 93.9%.
 
 In the robot, after 600 grasps training, our equivariant model achieves a grasp success rate of 95%.
 
-[//]: # (---)
 
 [//]: # ()
 [//]: # ()
@@ -113,6 +117,7 @@ In the robot, after 600 grasps training, our equivariant model achieves a grasp 
 
 
 ## Video
+
 ---
 <div style="text-align:center">
    <iframe width="853" height="480" src="https://youtu.be/au59crsgiKw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
