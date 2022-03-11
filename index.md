@@ -108,9 +108,12 @@ In the robot, after 600 grasps training, our equivariant model achieves a grasp 
 
 ---
 
-<div style="text-align:center">
-   <iframe width="853" height="480" src="https://youtu.be/au59crsgiKw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe width="420" height="315"
+src="https://youtu.be/au59crsgiKw">
+</iframe> 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/au59crsgiKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 [View this site in GitHub](https://github.com/ZXP-S-works/equivariant_grasp_site/edit/master/index.md)
