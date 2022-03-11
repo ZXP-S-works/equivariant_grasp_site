@@ -106,6 +106,16 @@ In the robot, after 600 grasps training, our equivariant model achieves a grasp 
 
 ---
 
+{% include youtubePlayer.html id="au59crsgiKw" %}
+
+<iframe src="https://www.youtube.com/embed/au59crsgiKw" 
+    width="560" 
+    height="315"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
+
+
 <p align="center">
 <iframe id="player" src="https://www.youtube.com/embed/au59crsgiKw" allowfullscreen></iframe>
 </p>
