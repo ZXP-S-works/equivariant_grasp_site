@@ -59,8 +59,8 @@ learning loss to minimize the gap between q1 and q2 networks. Moreover, we use B
 
 <table>
   <tr>
-    <td><img src="images/compare%20with%20all%20baselines%20validation2.png" style="width:100%"></td>
-    <td><img src="images/RSS_runs.png" style="width:100%"></td>
+    <td><img src="images/compare%20with%20all%20baselines%20validation2.png" alt="Simulation results" style="width:100%"></td>
+    <td><img src="images/RSS_runs.png" alt="Robot training results" style="width:100%"></td>
   </tr>
   <tr>
     <td>Simulation results, curves are averaged over 4 runs.</td>
@@ -70,7 +70,7 @@ learning loss to minimize the gap between q1 and q2 networks. Moreover, we use B
 
 
 The baseline comparisons on both simulation and robot show that our method significantly outperforms the baselines. Our
-methods advantage in these comparisons are two folds: 1) the highest sample efficiency and 2) converges to the highest 
+methods advantage shown in these comparisons are two folds: 1) achieves the highest sample efficiency and 2) converges to the highest 
 grasp success rate.
 
 <!---
