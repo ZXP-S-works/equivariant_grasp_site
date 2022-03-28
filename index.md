@@ -27,7 +27,7 @@ We formulate the planar grasp problem as a contextual bandit problem and use Q l
 
 + Augmented state representation (ASR)
 
-<p>
+<p align="center">
   <img src="images/ASR.png" alt="ASR" width="400">
 </p>
 
@@ -37,7 +37,7 @@ difficult to evaluate the entire action space in one pass for a single neural ne
 
 + Equivariant neural networks (Equ)
 
-<p>
+<p align="center">
  <img src="images/equation7.png" alt="q1 equivariance" width="240" style="text-align: left">
  <img src="images/equation8.png" alt="q2 equivariance" width="240" style="text-align: right">
 </p>
@@ -78,7 +78,7 @@ grasp success rate.
 
 ---
 
-<p>
+<p align="center">
  <img src="images/UR5_setup.png" alt="ASR" width="175">
  <img src="images/training_set_15.jpg" alt="training set" width="240" style="text-align: left">
  <img src="images/test_set_easy.jpg" alt="testing set" width="235" style="text-align: right">
@@ -115,7 +115,7 @@ In the robot, after 600 grasps training, our equivariant model achieves a grasp 
 
 ---
 
-<p>
+<p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/au59crsgiKw"
  frameborder="0"
  allow="autoplay;
