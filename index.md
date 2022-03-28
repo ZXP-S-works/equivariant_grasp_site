@@ -73,19 +73,6 @@ The baseline comparisons on both simulation and robot show that our method signi
 methods advantage shown in these comparisons are two folds: 1) achieves the highest sample efficiency and 2) converges to the highest 
 grasp success rate.
 
-<!---
-## Alation study
-
----
-
-<p align="center">
-  <img src="images/ablation.png" alt="ablation" width="400">
-</p>
-
-In the ablation study (the right figure), each component of our method is ablated to show its importance. We train each 
-ablation baseline in pybullet simulation and evaluate the learned policy at the grasp 150, 300, etc.
-
---->
 
 ## The Robot Training Platform
 
