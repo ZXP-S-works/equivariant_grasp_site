@@ -2,12 +2,22 @@
 layout: default
 ---
 
-[Xupeng Zhu](https://zxp-s-works.github.io/), [Dian Wang](https://pointw.github.io), [Ondrej Biza](https://sites.google.com/view/obiza), [Guanang Su](https://xxs90.github.io/),
+[Xupeng Zhu](https://zxp-s-works.github.io/), [Dian Wang](https://pointw.github.io),[Guanang Su*](https://xxs90.github.io/), [Ondrej Biza*](https://sites.google.com/view/obiza), 
 [Robin Walters](http://mathserver.neu.edu/robin/), [Robert Platt](http://www.ccs.neu.edu/home/rplatt/)
+
+*Authors order depends on paper
 
 ## Citation
 
 ---
+
+```
+@article{zhu2023grasp,
+  title={On robot grasp learning using equivariant models},
+  author={Xupeng Zhu, Dian Wang, Guanang Su, Ondrej Biza, Robin Walters & Robert Platt },
+  journal={Autonomous Robots},
+  year={2023} }
+```
 
 ```
 @article{zhu2022grasp,

@@ -1,4 +1,5 @@
-title: Sample Efficient Grasp Learning Using Equivariant Models
+title: On robot grasp learning using equivariant models; Sample Efficient Grasp Learning Using Equivariant Models
+
 description: Abstract. In planar grasp detection, the goal is to learn a function from an image of a scene onto a set of
   feasible grasp poses in SE(2). In this paper, we recognize that the optimal grasp function is SE(2)-equivariant 
   and can be modeled using an equivariant convolutional neural network. As a result, we are able to significantly improve 
