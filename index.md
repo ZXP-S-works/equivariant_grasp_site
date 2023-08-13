@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Xupeng Zhu](https://zxp-s-works.github.io/), [Dian Wang](https://pointw.github.io), [Guanang Su*](https://xxs90.github.io), [Ondrej Biza*](https://sites.google.com/view/obiza), 
+[Xupeng Zhu](https://zxp-s-works.github.io/), [Dian Wang](https://pointw.github.io), *[Guanang Su](https://xxs90.github.io), *[Ondrej Biza](https://sites.google.com/view/obiza), 
 [Robin Walters](https://www.khoury.northeastern.edu/people/robin-walters/), [Robert Platt](http://www.ccs.neu.edu/home/rplatt/)
 
 *Authors order depends on paper
