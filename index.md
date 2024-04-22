@@ -13,8 +13,8 @@ layout: default
 
 ```
 @article{zhu2023grasp,
-  title={On robot grasp learning using equivariant models},
-  author={Xupeng Zhu, Dian Wang, Guanang Su, Ondrej Biza, Robin Walters & Robert Platt },
+  title={On Robot Grasp Learning Using Equivariant Models},
+  author={Zhu, Xupeng and Wang, Dian and Su, Guanang and Biza, Ondrej and Walters, Robin and Platt, Robert},
   journal={Autonomous Robots},
   year={2023} }
 ```
